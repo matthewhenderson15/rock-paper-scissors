@@ -1,0 +1,106 @@
+.main_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+
+.selections {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#btn_rock {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 3;
+}
+
+#btn_paper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+}
+
+#btn_scissors {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+}
+
+.results {
+    background-color: lightgray;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.results #score_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 2;
+}
+
+.results #score_wins {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    text-align: center;
+}
+
+.results #score_loses {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    text-align: center;
+}
+
+.results #divider {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.results button {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 100px;
+}
+
+.results #round_result {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 10px;
+}
+
+.results #game_result {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
